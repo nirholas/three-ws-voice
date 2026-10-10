@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: "@three-ws/voice"
+abstract: "Speech for avatars — ASR (speech→text), TTS (text→speech), and Audio2Face-3D lipsync visemes in one import. The voice layer for three.ws avatars."
+version: 0.1.2
+license: Apache-2.0
+repository-code: "https://github.com/nirholas/three-ws-voice"
+url: "https://three.ws"
+authors:
+  - name: three.ws
+    website: "https://three.ws"

@@ -1,0 +1,57 @@
+{
+	"name": "@three-ws/voice",
+	"version": "0.1.2",
+	"description": "Speech for avatars — ASR (speech→text), TTS (text→speech), and Audio2Face-3D lipsync visemes in one import. The voice layer for three.ws avatars.",
+	"type": "module",
+	"main": "./src/index.js",
+	"module": "./src/index.js",
+	"types": "./src/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./src/index.d.ts",
+			"import": "./src/index.js",
+			"default": "./src/index.js"
+		},
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"src",
+		"examples",
+		"README.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"test": "node --test test/*.test.js"
+	},
+	"keywords": [
+		"asr",
+		"tts",
+		"speech-to-text",
+		"text-to-speech",
+		"lipsync",
+		"visemes",
+		"audio2face",
+		"blendshapes",
+		"arkit",
+		"avatar",
+		"three.ws",
+		"ai-agents"
+	],
+	"author": "nirholas <support@three.ws>",
+	"license": "Apache-2.0",
+	"homepage": "https://nirholas.github.io/three-ws-voice/",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nirholas/three-ws-voice.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nirholas/three-ws-voice/issues"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"dependencies": {},
+	"publishConfig": {
+		"access": "public"
+	}
+}
