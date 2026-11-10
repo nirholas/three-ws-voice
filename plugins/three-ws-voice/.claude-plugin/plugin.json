@@ -6,6 +6,7 @@
     "name": "nirholas"
   },
   "repository": "https://github.com/nirholas/three-ws-voice",
+  "homepage": "https://nirholas.github.io/three-ws-voice/",
   "license": "Apache-2.0",
   "keywords": [
     "asr",
@@ -13,6 +14,5 @@
     "lipsync",
     "visemes",
     "three-ws"
-  ],
-  "homepage": "https://nirholas.github.io/three-ws-voice/"
+  ]
 }
